@@ -1,0 +1,25 @@
+.UserForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+.UserInput {
+    width: 510px;
+    
+    padding: 20px;
+    
+    text-align: center;
+    font-size: 1.7em;
+    
+    border: none;
+    border-bottom: 1px solid #4cd137;
+    background-color: transparent;
+}
+
+.UserInput:focus {
+    border: 2px solid #4cd137;
+    color: grey;
+}

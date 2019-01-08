@@ -1,0 +1,15 @@
+.MessageList {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    width: 75vw;
+    max-height: 80vh;
+    
+    overflow-y: scroll;
+    font-size: 20px;
+}
+
+.Message {
+	margin: 10px 20px;
+}
